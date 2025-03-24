@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PetProject</string>
+    <string name="default_web_client_id">424669420732-pn5lct2pr6st6rjk6ltahbf5n6j0cvld.apps.googleusercontent.com</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

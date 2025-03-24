@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "424669420732",
+    "project_id": "petcare-4bc4d",
+    "storage_bucket": "petcare-4bc4d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424669420732:android:251d9d7daa9aaaf03c04b9",
+        "android_client_info": {
+          "package_name": "com.example.petproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424669420732-bu8f5136tk8kbsrhm0edtgl2r1rll2i2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petproject",
+            "certificate_hash": "9ad35e2f0e1235238a6173c3c431d8a44db81afc"
+          }
+        },
+        {
+          "client_id": "424669420732-pn5lct2pr6st6rjk6ltahbf5n6j0cvld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSjdpHYm1g3wtQxp6tvernaCpFI2f8cFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424669420732-pn5lct2pr6st6rjk6ltahbf5n6j0cvld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
