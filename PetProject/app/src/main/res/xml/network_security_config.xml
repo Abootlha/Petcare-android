@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
+    <!-- Base config that all connections use -->
     <base-config cleartextTrafficPermitted="false">
         <trust-anchors>
             <certificates src="system" />
         </trust-anchors>
     </base-config>
-    <!-- Allow connections to Twilio API -->
-    <domain-config>
-        <domain includeSubdomains="true">api.twilio.com</domain>
-        <domain includeSubdomains="true">verify.twilio.com</domain>
-        <trust-anchors>
-            <certificates src="system" />
-        </trust-anchors>
+    
+    <!-- Domain specific configurations -->
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Allow HTTP traffic for these domains for development purposes -->
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
     </domain-config>
 </network-security-config>

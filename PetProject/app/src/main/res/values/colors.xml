@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="primary">#4CAF50</color>
-    <color name="primary_dark">#388E3C</color>
-    <color name="primary_light">#C8E6C9</color>
-    <color name="accent">#FF9800</color>
-    <color name="light_gray">#F5F5F5</color>
+    <!-- Brand Colors -->
+    <color name="primary">#5E35B1</color>
+    <color name="primary_dark">#4527A0</color>
+    <color name="primary_light">#D1C4E9</color>
+    <color name="accent">#FFA000</color>
+    <color name="secondary">#FF7B59</color>
+    <color name="secondary_dark">#E55A3A</color>
+    <color name="secondary_light">#FFAD96</color>
+    
+    <!-- UI Colors -->
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="on_surface">#212121</color>
     <color name="medium_gray">#E0E0E0</color>
+    <color name="light_gray">#F5F5F5</color>
     <color name="dark_gray">#757575</color>
-    <color name="card_background">#FFFFFF</color>
-    <color name="price_color">#4CAF50</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_tertiary">#9E9E9E</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_secondary">#FFFFFF</color>
+    <color name="text_on_accent">#000000</color>
+
+    <!-- Category Colors -->
+    <color name="dog_category_color">#FFECB3</color>
+    <color name="cat_category_color">#C8E6C9</color>
+    <color name="bird_category_color">#BBDEFB</color>
+    <color name="fish_category_color">#F8BBD0</color>
+    
+    <!-- Status Colors -->
+    <color name="available">#4CAF50</color>
+    <color name="adopted">#FF5722</color>
+    <color name="pending">#FFC107</color>
+    
+    <!-- Bottom Navigation Colors -->
+    <color name="bottom_nav_selected_tint">#FFFFFF</color>
+    <color name="bottom_nav_unselected_tint">#B3FFFFFF</color>
+    
+    <!-- Standard Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#F44336</color>
 </resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PetProject" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand colors. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        
+        <!-- Secondary brand colors. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/text_on_secondary</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        
+        <!-- Background & Surface colors. -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        
+        <!-- Text colors. -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        
+        <!-- Default font family. -->
+        <item name="android:fontFamily">sans-serif</item>
+        
+        <!-- Component styles. -->
+        <item name="materialButtonStyle">@style/Widget.PetProject.Button.Primary</item>
+        <item name="materialCardViewStyle">@style/Widget.PetProject.CardView</item>
+        <item name="textInputStyle">@style/Widget.PetProject.TextInputLayout</item>
+        
+        <!-- Text appearance styles. -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.PetProject.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.PetProject.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.PetProject.Headline3</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.PetProject.Subtitle1</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.PetProject.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.PetProject.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.PetProject.Caption</item>
+    </style>
+    
+    <!-- Splash screen theme. -->
+    <style name="Theme.PetProject.Splash" parent="Theme.PetProject">
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+</resources> 
